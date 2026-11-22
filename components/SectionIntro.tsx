@@ -1,0 +1,1 @@
+export default function SectionIntro({kicker,title,copy}:{kicker:string;title:string;copy:string}){return <div className="section-intro"><span className="eyebrow">{kicker}</span><h2>{title}</h2><p>{copy}</p></div>}
